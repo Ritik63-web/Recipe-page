@@ -1,0 +1,32 @@
+img{
+    width: 600px;
+    height: 200px;
+    border-radius: 6px;
+}
+@font-face {
+    font-family: "Hello";
+    src: url("assets/fonts/outfit/static/Outfit-Light.ttf") ;
+}
+body{
+    background-color: #f3e5d8;
+    font-family: Hello;
+}
+
+h2{
+    color: #6c473c;
+}
+
+#content{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 20px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: white;
+    height: fit-content;
+}
+article{
+    background-color: #fff7fc;
+    padding: 15px;
+}
